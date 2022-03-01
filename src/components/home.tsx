@@ -18,7 +18,6 @@ function Home(props: any){
 
 
             <div data-aos="fade-up fade-out">
-                Eyecatching intro here
                 <IntroParticle/>
             </div>
 
