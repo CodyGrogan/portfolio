@@ -13,7 +13,7 @@ function Home(props: any){
     return(
         
         <div className='homeContainer'>
-        <section className='portfolioSection color1'>
+        <section className='portfolioSectionStart color1'>
             
 
 
@@ -34,10 +34,47 @@ function Home(props: any){
         <div className='sectionHead'>
         <h2>Skills</h2>
         </div>
+        <div className='lineBreak'></div>
 
-            <div data-aos="fade-down">
+            <div className='skillGroup' data-aos="fade-left">
 
-                Icons that you can hoverover with animations
+                <div className='skillGroup'>
+
+                Front End                
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/mongo.png'></img>
+                </div>
+
+                </div>
+
+             
+            </div>
+
+            <div className='lineBreak'></div>
+
+            <div className='skillGroup' data-aos="fade-right">
+
+                <div className='skillGroup'>
+
+                Front End                
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/mongo.png'></img>
+                </div>
+
+                </div>
+
+            </div>
+            <div className='lineBreak'></div>
+            <div className='skillGroup' data-aos="fade-left">
+
+                <div >
+
+                Front End                
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/mongo.png'></img>
+                </div>
+
+                </div>
 
             </div>
         </section>
