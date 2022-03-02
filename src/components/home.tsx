@@ -31,18 +31,32 @@ function Home(props: any){
 
         <section className='portfolioSection color2'>
         
-        <div className='sectionHead'>
-        <h2>Skills</h2>
-        </div>
-        <div className='lineBreak'></div>
+            <div className='sectionHead '>
+            <h2>Skills</h2>
+            </div>
 
-            <div className='skillGroup' data-aos="fade-left">
+        <div className='skillContainer'>
 
-                <div className='skillGroup'>
-
-                Front End                
+        <div className='lineBreak'/>
+            <div className='skillGroup ' data-aos="fade-left">
+            <h3>Front End</h3>   
+                <div className='skillInnerGroup'>
+                
+                       
                 <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/mongo.png'></img>
+                <img className='aboutIcon' src='./img/logo192.png'></img>
+                </div>
+
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/html5.png'></img>
+                </div>
+
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/css.png'></img>
+                </div>
+
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/javascript.png'></img>
                 </div>
 
                 </div>
@@ -50,38 +64,52 @@ function Home(props: any){
              
             </div>
 
-            <div className='lineBreak'></div>
 
             <div className='skillGroup' data-aos="fade-right">
+            <h3>Back End</h3>  
 
-                <div className='skillGroup'>
+                <div className='skillInnerGroup'>
 
-                Front End                
+                                 
                 <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/mongo.png'></img>
+                <img className='aboutIcon' src='./img/node.png'></img>
+                </div>
+
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/Expressjs.png'></img>
                 </div>
 
                 </div>
 
             </div>
-            <div className='lineBreak'></div>
             <div className='skillGroup' data-aos="fade-left">
-
-                <div >
-
-                Front End                
+            
+            <h3>Misc</h3>    
+                <div className='skillInnerGroup'>
+              
                 <div className='skillContainer'>
                 <img className='aboutIcon' src='./img/mongo.png'></img>
                 </div>
 
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/github.png'></img>
+                </div>
+
+
+
                 </div>
 
             </div>
+            </div>
+
         </section>
 
 
         <section className='portfolioSection color1'>
         <h2>Portofolio</h2>
+
+        <div className='lineBreak'/>
+
 
             <div data-aos="fade-up">
 
@@ -101,6 +129,8 @@ function Home(props: any){
 
     <section className='portfolioSection color1'>
         <h2>Contact</h2>
+        <div className='lineBreak'/>
+
 
             <div data-aos="fade-up">
 
