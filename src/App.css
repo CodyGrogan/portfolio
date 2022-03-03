@@ -95,3 +95,29 @@ h3{
 .typeWriter{
   font-size: 24px;
 }
+
+.wheel{
+  position: relative;
+  width: 200px;
+  border-radius: 50%;
+  background-color: slategray;
+  height: 200px;
+}
+
+
+
+.wheelItem{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #282c34;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+
+}
+
+
+/*
+animation: myOrbit 10s linear infinite;
+*/

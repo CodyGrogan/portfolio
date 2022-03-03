@@ -1,6 +1,7 @@
 import Aos from 'aos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import SkillWheel from './SkillWheel';
 import Intro from './Intro';
 import IntroParticle from './particle';
 
@@ -35,11 +36,18 @@ function Home(props: any){
             <h2>Skills</h2>
             </div>
 
+           
+
         <div className='skillContainer'>
 
+ <SkillWheel/>
         <div className='lineBreak'/>
             <div className='skillGroup ' data-aos="fade-left">
             <h3>Front End</h3>   
+
+
+
+           
                 <div className='skillInnerGroup'>
                 
                        
