@@ -116,6 +116,41 @@ function Home(props: any){
                 Fancy introduction to my portfolio projects
             </div>
 
+            <div className='skillGroup' data-aos="fade-left">
+            
+            <h3>Misc</h3>    
+                <div className='skillInnerGroup'>
+              
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/mongo.png'></img>
+                </div>
+
+                <div className='skillContainer'>
+                <img className='aboutIcon' src='./img/github.png'></img>
+                </div>
+
+
+
+                </div>
+
+            </div>
+
+            <div className='skillDrawer'>
+
+            <div className='skillBubble'>
+            <img className='aboutIcon' src='./img/github.png'></img>
+           
+
+
+            </div>
+
+            Github
+
+
+
+
+            </div>
+
         </section>
 
 
