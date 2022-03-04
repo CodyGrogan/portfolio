@@ -136,12 +136,8 @@ function Home(props: any){
             </div>
 
             <div className='skillDrawer'>
-
             <div className='skillBubble'>
             <img className='aboutIcon' src='./img/github.png'></img>
-           
-
-
             </div>
 
             Github
@@ -149,6 +145,10 @@ function Home(props: any){
 
 
 
+            </div>
+
+            <div className='skillDrawer'>
+                github
             </div>
 
         </section>
