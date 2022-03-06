@@ -114,11 +114,51 @@ function Home(props: any){
                       <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
                   </div>
-                  Project Info Here
+                    Play madlibs created by other users, and create and share your own madlib templates with other users.
                   </div>
 
                   <div className='col-sm'>
-                  Project Video Here
+                  <img src='./img/image_128.png'/>
+                  </div> 
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+
+
+        </div>
+
+        <div data-aos='fade-left' className='homeElement'>
+
+          <div className='projectContainer'>
+            <div className='projectHead'>
+
+              <h3>
+                Digital Travel Guide Taipei
+              </h3>
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-sm'>
+
+                  <div className='aboutCon'>
+        
+                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+
+                  </div>
+                    Play madlibs created by other users, and create and share your own madlib templates with other users.
+                  </div>
+
+                  <div className='col-sm'>
+                  <img src='./img/image_128.png'/>
                   </div> 
                 </div>
               </div>
@@ -131,8 +171,51 @@ function Home(props: any){
         </div>
 
 
-        <div className='homeElement'>
+        <div data-aos='fade-left' className='homeElement'>
 
+<div className='projectContainer'>
+  <div className='projectHead'>
+
+    <h3>
+      Cram School Manager
+    </h3>
+
+    <div className='container'>
+      <div className='row'>
+        <div className='col-sm'>
+
+        <div className='aboutCon'>
+
+            <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+            <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+            <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+            <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+            <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+            <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+            <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+
+        </div>
+          Play madlibs created by other users, and create and share your own madlib templates with other users.
+        </div>
+
+        <div className='col-sm'>
+        <img src='./img/image_128.png'/>
+        </div> 
+      </div>
+    </div>
+
+  </div>
+  
+</div>
+
+
+</div>
+
+
+        <div className='homeElement'>
+          <h3>
+            Contact
+          </h3>
           Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
         </div>
 
