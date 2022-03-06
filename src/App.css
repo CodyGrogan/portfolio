@@ -22,12 +22,17 @@ body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 5px;
 }
 
 .aboutIcon{
   padding: 10px;
   max-height: 50px;
   max-width: 100px;
+}
+
+.demoBtn{
+  margin-left: 5px;
 }
 
 .homeElement{
@@ -39,3 +44,14 @@ body {
   border-radius: 4px;
 }
 
+.linkedIn{
+  filter: grayscale(1);
+}
+
+.linkedIn:hover{
+  filter: grayscale(0);
+}
+
+.profilePhoto{
+  width: 100px;
+}

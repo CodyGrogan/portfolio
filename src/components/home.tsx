@@ -34,8 +34,12 @@ function Home(props: any){
             <div className='row'>
 
             <div className='col photoDiv'>
-              photo here
+              <img className='profilePhoto' src='./img/codyphotocircle.png'/>
+              <div>
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+        </div>
             </div>
+           
 
             <div className='col'>
             <h1 >Cody Grogan</h1>
@@ -115,6 +119,19 @@ function Home(props: any){
 
                   </div>
                       This webapp takes user preferences from a short quiz, weather data from Open Weather Map API, and location data to recommend an itinerary for a vacation in Taipei.
+                  
+                  
+                      <div className='aboutCon'>
+
+                      <a href='https://digitaltravelguide.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://github.com/CodyGrogan/digitaltravelguide' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
+                      
+                      
+                      </div>
+                      <div className='form-text'>
+                      Demo may take a few seconds to load due to Heroku free tier limitations.
+                      </div>
+                  
                   </div>
 
                   <div className='col-sm'>
@@ -196,6 +213,16 @@ function Home(props: any){
 
         </div>
           Play madlibs created by other users, and create and share your own madlib templates with other users.
+          
+          <div className='aboutCon'>
+
+            <a href='https://madlibwarehouse.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+            <a href='https://github.com/CodyGrogan/madlibwarehouse' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
+          </div>
+          <div className='form-text'>
+              Demo may take a few seconds to load due to Heroku free tier limitations.
+          </div>
+          
         </div>
 
         <div className='col-sm'>
@@ -217,10 +244,21 @@ function Home(props: any){
             Contact
           </h3>
           Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
+        
+        <div>
+        <span className="material-icons-outlined">
+          email
+          </span>
+        </div>
+        
+
+        <div>
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+        </div>
+        
         </div>
 
-
-        </div>
+</div>
 
 
 
