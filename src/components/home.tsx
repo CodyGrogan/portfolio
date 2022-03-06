@@ -1,12 +1,27 @@
 import Aos from 'aos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 function Home(props: any){
 
    
     Aos.init();
+   
+   useEffect(()=>{
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  // @ts-ignore
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+  
+  
+   },
+   [])
+
 
     return(
         
@@ -77,7 +92,42 @@ function Home(props: any){
 
         <div className='homeElement'>
 
-          Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
+          <div className='projectContainer'>
+            <div className='projectHead'>
+
+              <h3>
+                Madlib Warehouse
+              </h3>
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-sm'>
+
+                  <div className='aboutCon'>
+        
+                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+
+                  </div>
+                  Project Info Here
+                  </div>
+
+                  <div className='col-sm'>
+                  Project Video Here
+                  </div> 
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+
+
         </div>
 
 

@@ -15,6 +15,20 @@ body {
  
 }
 
+.aboutCon{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.aboutIcon{
+  padding: 10px;
+  max-height: 50px;
+  max-width: 100px;
+}
 
 .homeElement{
   background-color: #FFFFFF;
