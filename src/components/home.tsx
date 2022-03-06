@@ -96,7 +96,7 @@ function Home(props: any){
             <div className='projectHead'>
 
               <h3>
-                Madlib Warehouse
+                Digital Travel Guide Taipei
               </h3>
 
               <div className='container'>
@@ -114,7 +114,7 @@ function Home(props: any){
                       <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
                   </div>
-                    Play madlibs created by other users, and create and share your own madlib templates with other users.
+                      This webapp takes user preferences from a short quiz, weather data from Open Weather Map API, and location data to recommend an itinerary for a vacation in Taipei.
                   </div>
 
                   <div className='col-sm'>
@@ -136,7 +136,7 @@ function Home(props: any){
             <div className='projectHead'>
 
               <h3>
-                Digital Travel Guide Taipei
+                Cram School Manager
               </h3>
 
               <div className='container'>
@@ -177,7 +177,7 @@ function Home(props: any){
   <div className='projectHead'>
 
     <h3>
-      Cram School Manager
+      Madlib Warehouse
     </h3>
 
     <div className='container'>
