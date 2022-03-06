@@ -1,181 +1,226 @@
 import Aos from 'aos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Intro from './Intro';
-import IntroParticle from './particle';
+import { useEffect } from 'react';
 
 
 function Home(props: any){
 
    
     Aos.init();
+   
+   useEffect(()=>{
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  // @ts-ignore
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+  
+  
+   },
+   [])
+
 
     return(
         
-        <div className='homeContainer'>
-        <section className='portfolioSectionStart color1'>
-            
+        <div className='home'>
 
 
-            <div data-aos="fade-up fade-out">
-                <IntroParticle/>
-            </div>
 
-            <div>
-                <Intro/>
-            </div>
-
-
-        </section>
-
-
-        <section className='portfolioSection color2'>
         
-            <div className='sectionHead '>
-            <h2>Skills</h2>
+          <div className="container-fluid bg-light  bg-gradient">
+            <div className='row'>
+
+            <div className='col photoDiv'>
+              photo here
             </div>
 
-        <div className='skillContainer'>
+            <div className='col'>
+            <h1 >Cody Grogan</h1>
+            <p >Full Stack Web Developer</p>
 
-        <div className='lineBreak'/>
-            <div className='skillGroup ' data-aos="fade-left">
-            <h3>Front End</h3>   
-                <div className='skillInnerGroup'>
+            <p>
+
+
+            </p>
+
+            </div>
+          
+            
+            <div className='col contactBtn'>
+              <div>
+          
+            <button className="btn btn-outline-success" type="submit">Contact Me</button>
+            </div>
+
+            </div>
+            <div className='col'>
+            <div >
+                <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <span className="material-icons">
+                  language
+                  </span>
+                </a>
+
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a className="dropdown-item" href="#">English</a></li>
+                  <li><a className="dropdown-item" href="#">中文</a></li>
+                </ul>
+              </div>
+
+              </div>
+              </div>
+          </div>
+     
+          <div className='homeElement'>
+
+          Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
+          </div>
                 
-                       
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/logo192.png'></img>
-                </div>
+        <div className='homeElement'>
+          <h2>
+            Portfolio
+          </h2>
 
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/html5.png'></img>
-                </div>
 
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/css.png'></img>
-                </div>
 
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/javascript.png'></img>
-                </div>
+        </div>
 
-                </div>
+      
 
-             
+        <div className='homeElement'>
+
+          <div className='projectContainer'>
+            <div className='projectHead'>
+
+              <h3>
+                Madlib Warehouse
+              </h3>
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-sm'>
+
+                  <div className='aboutCon'>
+        
+                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+
+                  </div>
+                    Play madlibs created by other users, and create and share your own madlib templates with other users.
+                  </div>
+
+                  <div className='col-sm'>
+                  <img src='./img/image_128.png'/>
+                  </div> 
+                </div>
+              </div>
+
             </div>
-
-
-            <div className='skillGroup' data-aos="fade-right">
-            <h3>Back End</h3>  
-
-                <div className='skillInnerGroup'>
-
-                                 
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/node.png'></img>
-                </div>
-
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/Expressjs.png'></img>
-                </div>
-
-                </div>
-
-            </div>
-            <div className='skillGroup' data-aos="fade-left">
             
-            <h3>Misc</h3>    
-                <div className='skillInnerGroup'>
-              
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/mongo.png'></img>
+          </div>
+
+
+        </div>
+
+        <div data-aos='fade-left' className='homeElement'>
+
+          <div className='projectContainer'>
+            <div className='projectHead'>
+
+              <h3>
+                Digital Travel Guide Taipei
+              </h3>
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-sm'>
+
+                  <div className='aboutCon'>
+        
+                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+
+                  </div>
+                    Play madlibs created by other users, and create and share your own madlib templates with other users.
+                  </div>
+
+                  <div className='col-sm'>
+                  <img src='./img/image_128.png'/>
+                  </div> 
                 </div>
-
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/github.png'></img>
-                </div>
-
-
-
-                </div>
+              </div>
 
             </div>
-            </div>
-
-        </section>
-
-
-        <section className='portfolioSection color1'>
-        <h2>Portofolio</h2>
-
-        <div className='lineBreak'/>
-
-
-            <div data-aos="fade-up">
-
-                Fancy introduction to my portfolio projects
-            </div>
-
-            <div className='skillGroup' data-aos="fade-left">
             
-            <h3>Misc</h3>    
-                <div className='skillInnerGroup'>
-              
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/mongo.png'></img>
-                </div>
-
-                <div className='skillContainer'>
-                <img className='aboutIcon' src='./img/github.png'></img>
-                </div>
+          </div>
 
 
-
-                </div>
-
-            </div>
-
-            <div className='skillDrawer'>
-            <div className='skillBubble'>
-            <img className='aboutIcon' src='./img/github.png'></img>
-            </div>
-
-            Github
+        </div>
 
 
+        <div data-aos='fade-left' className='homeElement'>
 
+<div className='projectContainer'>
+  <div className='projectHead'>
 
-            </div>
+    <h3>
+      Cram School Manager
+    </h3>
 
-            <div className='skillDrawer'>
-                github
-            </div>
+    <div className='container'>
+      <div className='row'>
+        <div className='col-sm'>
 
-        </section>
+        <div className='aboutCon'>
 
+            <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+            <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+            <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+            <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+            <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+            <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+            <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
-    <section className='portfolioSection color2'>
-        <h2>About Me</h2>
+        </div>
+          Play madlibs created by other users, and create and share your own madlib templates with other users.
+        </div>
 
-    <div data-aos="fade-down">
-        Education, nontraditional background, Chinese skills
+        <div className='col-sm'>
+        <img src='./img/image_128.png'/>
+        </div> 
+      </div>
     </div>
-    </section>
 
-    <section className='portfolioSection color1'>
-        <h2>Contact</h2>
-        <div className='lineBreak'/>
-
-
-            <div data-aos="fade-up">
-
-                My linked in, email me, yadada
-            </div>
-
-    </section>
+  </div>
+  
+</div>
 
 
 </div>
+
+
+        <div className='homeElement' data-aos='fade-right'>
+          <h3>
+            Contact
+          </h3>
+          Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
+        </div>
+
+
+        </div>
 
 
 
