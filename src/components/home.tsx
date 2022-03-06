@@ -188,7 +188,7 @@ function Home(props: any){
         </div>
 
 
-        <div data-aos='fade-left' className='homeElement'>
+        <div data-aos='fade-right' className='homeElement'>
 
 <div className='projectContainer'>
   <div className='projectHead'>
@@ -239,7 +239,7 @@ function Home(props: any){
 </div>
 
 
-        <div className='homeElement' data-aos='fade-right'>
+        <div className='homeElement' data-aos='fade-left'>
           <h3>
             Contact
           </h3>
