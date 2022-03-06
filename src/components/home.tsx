@@ -212,7 +212,7 @@ function Home(props: any){
 </div>
 
 
-        <div className='homeElement'>
+        <div className='homeElement' data-aos='fade-right'>
           <h3>
             Contact
           </h3>
