@@ -52,6 +52,10 @@ body {
   filter: grayscale(0);
 }
 
+.gitHub:hover{
+  filter: contrast(.5)
+}
+
 .profilePhoto{
   width: 100px;
 }

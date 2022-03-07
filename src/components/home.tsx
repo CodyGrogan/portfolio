@@ -35,10 +35,18 @@ function Home(props: any){
 
             <div className='col photoDiv'>
               <img className='profilePhoto' src='./img/codyphotocircle.png'/>
+
+        <div className='aboutCon'>
               <div>
        <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
         </div>
+        <div>
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+        </div>
+        </div>
             </div>
+
+            
            
 
             <div className='col'>
@@ -80,7 +88,8 @@ function Home(props: any){
      
           <div className='homeElement'>
 
-          Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
+          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history, so I am  fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
+
           </div>
                 
         <div className='homeElement'>
@@ -113,7 +122,6 @@ function Home(props: any){
                       <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
                       <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
                       <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
-                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
                       <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
                       <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
@@ -164,12 +172,15 @@ function Home(props: any){
         
                       <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
                       <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
+
                       <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
                       <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
                       <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
                       <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
                       <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
-
+                      <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
+                    
                   </div>
                     Play madlibs created by other users, and create and share your own madlib templates with other users.
                   </div>
@@ -210,6 +221,7 @@ function Home(props: any){
             <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
             <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
             <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+            <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
 
         </div>
           Play madlibs created by other users, and create and share your own madlib templates with other users.
@@ -238,8 +250,19 @@ function Home(props: any){
 
 </div>
 
+          <div className='homeElement' data-aos='fade-left'>
+          <h3>Education</h3>
+          William and Mary, 2013-2017, BA, Cum Laude
+          <br/>
+          National Taiwan University Chinese Language Division, 2017-2018
+          <br/>
+          The Odin Project, 2021-Present
 
-        <div className='homeElement' data-aos='fade-left'>
+
+          </div>
+
+
+        <div className='homeElement' data-aos='fade-right'>
           <h3>
             Contact
           </h3>
@@ -252,10 +275,17 @@ function Home(props: any){
         </div>
         
 
+
+        <div className='aboutCon'>
         <div>
        <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
         </div>
         
+        <div>
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+        </div>
+        </div>
+
         </div>
 
 </div>
