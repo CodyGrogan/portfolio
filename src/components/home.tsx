@@ -143,7 +143,7 @@ function Home(props: any){
                   </div>
 
                   <div className='col-sm'>
-                  <img src='./img/image_128.png'/>
+                  <img src='./img/taipeidemo3.gif'/>
                   </div> 
                 </div>
               </div>
