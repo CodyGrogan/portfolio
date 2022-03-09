@@ -64,7 +64,7 @@ function Home(props: any){
             <div className='col contactBtn'>
               <div>
           
-            <button className="btn btn-outline-success" type="submit">Contact Me</button>
+           <a href='#contact'><button className="btn btn-outline-success">Contact Me</button></a> 
             </div>
 
             </div>
@@ -326,7 +326,7 @@ function Home(props: any){
           </div>
 
 
-        <div className='homeElement' data-aos='fade-right'>
+        <div id='contact' className='homeElement' data-aos='fade-right'>
           <h3>
             Contact
           </h3>
