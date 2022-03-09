@@ -33,18 +33,18 @@ function Home(props: any){
           <div className="container-fluid bg-light  bg-gradient">
             <div className='row'>
 
-            <div className='col photoDiv'>
+      <div className='col photoDiv'>
               <img className='profilePhoto' src='./img/codyphotocircle.png'/>
 
         <div className='aboutCon'>
               <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
         </div>
         <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
         </div>
         </div>
-            </div>
+      </div>
 
             
            
@@ -85,6 +85,11 @@ function Home(props: any){
               </div>
               </div>
           </div>
+
+
+
+
+      <div className='container content'>
      
           <div className='homeElement aboutMe'>
 
@@ -337,15 +342,19 @@ function Home(props: any){
 
         <div className='aboutCon'>
         <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
         </div>
         
         <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
         </div>
         </div>
 
         </div>
+
+
+  </div>
+
 
 </div>
 

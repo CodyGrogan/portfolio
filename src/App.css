@@ -10,11 +10,12 @@ body {
   background-color: #DAE3E7;
   overflow-x:hidden;
   max-width: 100%;
+  font-size: 18px;
 
 }
 
 .home{
- 
+
 }
 
 .aboutCon{
@@ -48,6 +49,7 @@ body {
   margin-right: 5%;
 
   border-radius: 4px;
+
 }
 
 .linkedIn{
@@ -66,6 +68,10 @@ body {
   width: 100px;
 }
 
-.carImg{
+.carCol{
   max-width: 450px;
+}
+
+.content{
+  max-width: 1200px;
 }
