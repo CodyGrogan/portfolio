@@ -27,6 +27,10 @@ body {
   padding: 5px;
 }
 
+.aboutMe{
+  text-align: left;
+}
+
 .aboutIcon{
   padding: 10px;
   max-height: 50px;
@@ -62,3 +66,6 @@ body {
   width: 100px;
 }
 
+.carImg{
+  max-width: 450px;
+}

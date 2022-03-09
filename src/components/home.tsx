@@ -86,7 +86,7 @@ function Home(props: any){
               </div>
           </div>
      
-          <div className='homeElement'>
+          <div className='homeElement aboutMe'>
 
           Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history, so I am  fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
 
