@@ -61,17 +61,17 @@ function Home(props: any){
             </div>
           
             
-            <div className='col contactBtn'>
+            <div className='col '>
               <div>
           
-           <a href='#contact'><button className="btn btn-outline-success">Contact Me</button></a> 
+           <a href='#contact'><button className="btn btn-outline-success contactBtn">Contact Me</button></a> 
             </div>
 
             </div>
             <div className='col'>
             <div >
                 <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <span className="material-icons">
+                <span className="material-icons language">
                   language
                   </span>
                 </a>
