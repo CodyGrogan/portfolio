@@ -2,6 +2,7 @@ import Aos from 'aos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Home(props: any){
@@ -26,6 +27,7 @@ function Home(props: any){
     return(
         
         <div className='home'>
+          
 
 
 
@@ -50,6 +52,8 @@ function Home(props: any){
            
 
             <div className='col'>
+
+              <div className='push-down'>
             <h1 >Cody Grogan</h1>
             <p >Full Stack Web Developer</p>
 
@@ -59,17 +63,19 @@ function Home(props: any){
             </p>
 
             </div>
+
+            </div>
           
             
             <div className='col '>
-              <div>
+              <div className='push-down'>
           
            <a href='#contact'><button className="btn btn-outline-success contactBtn">Contact Me</button></a> 
             </div>
 
             </div>
             <div className='col'>
-            <div >
+            <div className='push-down'>
                 <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <span className="material-icons language">
                   language
@@ -77,8 +83,8 @@ function Home(props: any){
                 </a>
 
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <li><a className="dropdown-item" href="#">English</a></li>
-                  <li><a className="dropdown-item" href="#">中文</a></li>
+                 <Link to='/'><li><a className="dropdown-item" href="#">English</a></li></Link>
+                  <Link to='/zh'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
                 </ul>
               </div>
 
@@ -93,7 +99,7 @@ function Home(props: any){
      
           <div className='homeElement aboutMe'>
 
-          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history, so I am  fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
+          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history and I am fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
 
           </div>
                 
@@ -217,11 +223,47 @@ function Home(props: any){
                       <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
                     
                   </div>
-                    Play madlibs created by other users, and create and share your own madlib templates with other users.
+                    A basic school manager where you can organize classes, assignments, lesson plans, student attendance and grades, as well as other features to necessary for running a school. Data on classes and assignments is also displayed through a variety of charts to help visualize class and student performance.
+                  
+                    <div className='aboutCon'>
+
+                      <a href='https://cram-school-manager.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://github.com/CodyGrogan/cramschoolmanager' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
+                    </div>
+                    <div className='form-text'>
+                      Demo may take a few seconds to load due to Heroku free tier limitations.
+                    </div>
+                  
                   </div>
 
                   <div className='col-sm'>
-                  <img src='./img/image_128.png'/>
+                  <div id="carouselCram" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselCram" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselCram" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselCram" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner">
+                          <div className="carousel-item active">
+                            <img src={"/img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                          </div>
+                          <div className="carousel-item">
+                            <img src={"/img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                          </div>
+                          <div className="carousel-item">
+                            <img src={"/img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                          </div>
+                         
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselCram" data-bs-slide="prev">
+                          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselCram" data-bs-slide="next">
+                          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Next</span>
+                        </button>
+                      </div>
                   </div> 
                 </div>
               </div>
@@ -330,12 +372,21 @@ function Home(props: any){
           <h3>
             Contact
           </h3>
-          Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsuLorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est m dolorem est Lorem ipsum dolorem est Lorem ipsum dolorem est 
-        
-        <div>
-        <span className="material-icons-outlined">
+
+          Please feel free to reach me through the following email address, Linked In, or Github.
+          <br/>
+          <span className="material-icons-outlined">
           email
-          </span>
+        </span>
+          
+
+        <div>
+        
+        <a href = "mailto: codygrogan.hire@gmail.com"> 
+          codygrogan.hire@gmail.com
+          
+        </a>
+       
         </div>
         
 
