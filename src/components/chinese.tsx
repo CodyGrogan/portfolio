@@ -35,14 +35,14 @@ function Chinese(props: any){
             <div className='row'>
 
       <div className='col photoDiv'>
-              <img className='profilePhoto' src='./img/codyphotocircle.png'/>
+              <img className='profilePhoto' src='/portfolio/img/codyphotocircle.png'/>
 
         <div className='aboutCon'>
               <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='/portfolio/img/LI-In-crop.png'></img></a> 
         </div>
         <div>
-       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='/portfolio/img/github.png'></img></a> 
         </div>
         </div>
       </div>
@@ -82,8 +82,8 @@ function Chinese(props: any){
                 </a>
 
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <Link to='/'><li><a className="dropdown-item" href="#">English</a></li></Link>
-                  <Link to='/zh'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
+                    <Link to='/portfolio/'><li><a className="dropdown-item" href="#">English</a></li></Link>
+                    <Link to='/portfolio/zh/'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
                 </ul>
               </div>
 
@@ -128,12 +128,12 @@ function Chinese(props: any){
 
                   <div className='aboutCon'>
         
-                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
-                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
-                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
-                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/portfolio/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/portfolio/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'/portfolio/img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
                   </div>
                       This webapp takes user preferences from a short quiz, weather data from Open Weather Map API, and location data to recommend an itinerary for a vacation in Taipei.
@@ -162,13 +162,13 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/dgt/dgt1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/dgt/dgt1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/dgt/dgt2.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/dgt/dgt2.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/dgt/dgt3.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/dgt/dgt3.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -211,16 +211,16 @@ function Chinese(props: any){
 
                   <div className='aboutCon'>
         
-                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-                      <img className='aboutIcon' src={'/img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
+                      <img className='aboutIcon' src={'/portfolio/img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'/portfolio/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'/portfolio/img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
 
-                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
-                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
-                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
-                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
-                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
-                      <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
+                      <img className='aboutIcon' src={'/portfolio/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'/portfolio/img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'/portfolio/img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+                      <img className='aboutIcon' src={'/portfolio/img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
                     
                   </div>
                     A basic school manager where you can organize classes, assignments, lesson plans, student attendance and grades, as well as other features to necessary for running a school. Data on classes and assignments is also displayed through a variety of charts to help visualize class and student performance.
@@ -245,13 +245,13 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                          
                         </div>
@@ -291,14 +291,14 @@ function Chinese(props: any){
 
         <div className='aboutCon'>
 
-            <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-            <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-            <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
-            <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
-            <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
-            <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
-            <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
-            <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
+            <img className='aboutIcon' src={'/portfolio/img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+            <img className='aboutIcon' src={'/portfolio/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+            <img className='aboutIcon' src={'/portfolio/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+            <img className='aboutIcon' src={'/portfolio/img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+            <img className='aboutIcon' src={'/portfolio/img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+            <img className='aboutIcon' src={'/portfolio/img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+            <img className='aboutIcon' src={'/portfolio/img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+            <img className='aboutIcon' src={'/portfolio/img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
 
         </div>
           Play madlibs created by other users, and create and share your own madlib templates with other users.
@@ -324,16 +324,16 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/mad/mad1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/mad/mad1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad4-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad4-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselMadlib" data-bs-slide="prev">
@@ -393,11 +393,11 @@ function Chinese(props: any){
 
         <div className='aboutCon'>
         <div>
-       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='./img/LI-In-crop.png'></img></a> 
+       <a href='https://www.linkedin.com/in/cody-grogan-096288127/' target='_blank'><img className='aboutIcon linkedIn' src='/portfolio/img/LI-In-crop.png'></img></a> 
         </div>
         
         <div>
-       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='./img/github.png'></img></a> 
+       <a href='https://github.com/CodyGrogan' target='_blank'><img className='aboutIcon gitHub' src='/portfolio/img/github.png'></img></a> 
         </div>
         </div>
 

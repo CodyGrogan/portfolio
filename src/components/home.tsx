@@ -83,8 +83,8 @@ function Home(props: any){
                 </a>
 
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                 <Link to='/'><li><a className="dropdown-item" href="#">English</a></li></Link>
-                  <Link to='/zh'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
+                  <Link to='/portfolio'><li><a className="dropdown-item" href="#">English</a></li></Link>
+                  <Link to='/portfolio/zh'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
                 </ul>
               </div>
 
@@ -130,8 +130,8 @@ function Home(props: any){
                   <div className='aboutCon'>
         
                       <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-                      <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'./img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
                       <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
                       <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
                       <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
@@ -163,13 +163,13 @@ function Home(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/dgt/dgt1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"./img/dgt/dgt1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/dgt/dgt2.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/dgt/dgt2.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/dgt/dgt3.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/dgt/dgt3.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -212,8 +212,8 @@ function Home(props: any){
                   <div className='aboutCon'>
         
                       <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-                      <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-                      <img className='aboutIcon' src={'/img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
+                      <img className='aboutIcon' src={'./img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'./img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
 
                       <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
                       <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
@@ -245,13 +245,13 @@ function Home(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"./img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                          
                         </div>
@@ -292,8 +292,8 @@ function Home(props: any){
         <div className='aboutCon'>
 
             <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
-            <img className='aboutIcon' src={'/img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
-            <img className='aboutIcon' src={'/img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+            <img className='aboutIcon' src={'./img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+            <img className='aboutIcon' src={'./img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
             <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
             <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
             <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
@@ -324,16 +324,16 @@ function Home(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/img/mad/mad1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"./img/mad/mad1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/mad/mad2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/mad/mad3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/img/mad/mad4-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/mad/mad4-f.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselMadlib" data-bs-slide="prev">
