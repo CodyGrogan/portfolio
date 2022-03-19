@@ -162,13 +162,13 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/portfolio/img/dgt/dgt1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/dgt/dgt1.png"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/dgt/dgt2.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/dgt/dgt2.png"} className="d-block w-100 carImg" alt="dgt2"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/dgt/dgt3.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/dgt/dgt3.png"} className="d-block w-100 carImg" alt="dgt3"/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -245,13 +245,13 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/portfolio/img/cram/cram1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/cram/cram1-f.png"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/cram/cram2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/cram/cram2-f.png"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/cram/cram3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/cram/cram3-f.png"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                          
                         </div>
@@ -324,16 +324,16 @@ function Chinese(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"/portfolio/img/mad/mad1-f.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"/portfolio/img/mad/mad1-f.png"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/mad/mad2-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad2-f.png"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/mad/mad3-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad3-f.png"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"/portfolio/img/mad/mad4-f.PNG"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"/portfolio/img/mad/mad4-f.png"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselMadlib" data-bs-slide="prev">
