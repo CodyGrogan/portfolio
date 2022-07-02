@@ -36,7 +36,7 @@ function Home(props: any){
             <div className='row'>
 
       <div className='col photoDiv'>
-              <img className='profilePhoto' src='./img/codyphotocircle.png'/>
+              <img className='profilePhoto' src='./img/headshot.png'/>
 
         <div className='aboutCon'>
               <div>
