@@ -35,7 +35,7 @@ function Chinese(props: any){
             <div className='row'>
 
       <div className='col photoDiv'>
-              <img className='profilePhoto' src='/portfolio/img/codyphotocircle.png'/>
+              <img className='profilePhoto' src='/portfolio/img/headshot.png'/>
 
         <div className='aboutCon'>
               <div>
@@ -98,13 +98,12 @@ function Chinese(props: any){
      
           <div className='homeElement aboutMe'>
 
-          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history and I am fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
-
+          嗨，我是Cody，一個Full Stack 程序設計師。 我把程式設計作為一種愛好已經有兩年多了，希望能把職業轉向網絡程序設計師。 我有使用JavaScript和Typescript構建Web應用程序前端和後端的經驗。 我之前在學術界從事中國歷史研究，國語流利。 雖然我受過非傳統教育，但我相信我的作品集證明了我的能力和技能。
           </div>
                 
         <div className='homeElement'>
           <h2>
-            Portfolio
+            作品集
           </h2>
 
 
@@ -136,7 +135,7 @@ function Chinese(props: any){
                       <img className='aboutIcon' src={'/portfolio/img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
                   </div>
-                      This webapp takes user preferences from a short quiz, weather data from Open Weather Map API, and location data to recommend an itinerary for a vacation in Taipei.
+                  這個webapp從一個簡短的測試中獲取用戶偏好 ,  Open Weather Map API 的資料, 與位置數據，來推薦去臺北度假的行程.
                   
                   
                       <div className='aboutCon'>
@@ -147,7 +146,7 @@ function Chinese(props: any){
                       
                       </div>
                       <div className='form-text'>
-                      Demo may take a few seconds to load due to Heroku free tier limitations.
+                      因爲Heroku的免費等級的限制，實驗網站會需要幾秒準備。
                       </div>
                   
                   </div>
@@ -202,7 +201,7 @@ function Chinese(props: any){
 
               <h3>
 
-                    補習班管理軟體
+                    補習班管理器
               </h3>
 
               <div className='container'>
@@ -223,7 +222,9 @@ function Chinese(props: any){
                       <img className='aboutIcon' src={'/portfolio/img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
                     
                   </div>
-                    A basic school manager where you can organize classes, assignments, lesson plans, student attendance and grades, as well as other features to necessary for running a school. Data on classes and assignments is also displayed through a variety of charts to help visualize class and student performance.
+
+
+                  一個基本的學校管理器，您可以在其中組織課程、功課、課程計畫、學生出勤率和成績，以及運營學校所需的其他功能。 課堂和功課的數據也通過各種圖表顯示，以幫助視覺化課堂和學生的表現。
                   
                     <div className='aboutCon'>
 
@@ -231,7 +232,7 @@ function Chinese(props: any){
                       <a href='https://github.com/CodyGrogan/cramschoolmanager' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                     </div>
                     <div className='form-text'>
-                      Demo may take a few seconds to load due to Heroku free tier limitations.
+                    因爲Heroku的免費等級的限制，實驗網站會需要幾秒準備。
                     </div>
                   
                   </div>
@@ -301,7 +302,9 @@ function Chinese(props: any){
             <img className='aboutIcon' src={'/portfolio/img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
 
         </div>
-          Play madlibs created by other users, and create and share your own madlib templates with other users.
+
+
+        播放其他用戶創建的完形填空游，並與其他用戶創建和共亯您自己的完形填空游範本。
           
           <div className='aboutCon'>
 
@@ -309,7 +312,7 @@ function Chinese(props: any){
             <a href='https://github.com/CodyGrogan/madlibwarehouse' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
           </div>
           <div className='form-text'>
-              Demo may take a few seconds to load due to Heroku free tier limitations.
+            因爲Heroku的免費等級的限制，實驗網站會需要幾秒準備。
           </div>
           
         </div>
@@ -357,12 +360,12 @@ function Chinese(props: any){
 </div>
 
           <div className='homeElement' data-aos='fade-left'>
-          <h3>Education</h3>
-          William and Mary, 2013-2017, BA, Cum Laude
+          <h3>教育</h3>
+          威廉瑪麗大學, 2013-2017, BA, Cum Laude
           <br/>
-          National Taiwan University Chinese Language Division, 2017-2018
+          國立臺灣大學文學院語文中心中國語文組, 2017-2018
           <br/>
-          The Odin Project, 2021-Present
+          The Odin Project, 2021-現在
 
 
           </div>
@@ -370,10 +373,10 @@ function Chinese(props: any){
 
         <div id='contact' className='homeElement' data-aos='fade-right'>
           <h3>
-            Contact
+            聯絡
           </h3>
 
-          Please feel free to reach me through the following email address, Linked In, or Github.
+          請使用下面的email、LinkedIn、還是 Github聯絡我。
           <br/>
           <span className="material-icons-outlined">
           email
