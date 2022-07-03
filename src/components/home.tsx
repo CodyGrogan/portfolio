@@ -223,7 +223,7 @@ function Home(props: any){
                       <img className='aboutIcon' src={'./img/Firebase.png'} data-bs-toggle="tooltip" data-placement="top" title="Firebase Auth"/>
                     
                   </div>
-                    A basic school manager where you can organize classes, assignments, lesson plans, student attendance and grades, as well as other features to necessary for running a school. Data on classes and assignments is also displayed through a variety of charts to help visualize class and student performance.
+                    A basic school manager where you can organize classes, assignments, lesson plans, student attendance and grades, as well as other features necessary for running a school. Data on classes and assignments is also displayed through a variety of charts to help visualize class and student performance.
                   
                     <div className='aboutCon'>
 
