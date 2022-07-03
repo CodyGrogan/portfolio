@@ -99,7 +99,7 @@ function Home(props: any){
      
           <div className='homeElement aboutMe'>
 
-          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history and I am fluent in Mandarin Chinese. Although I have a non-traditional education, I believe my portfolio proves my capability and skill.
+          Hi, I'm Cody, an aspiring full stack webdeveloper. I've been programming as a hobby for over two years, and hope to make a career switch to web development. I have experience building the frontend and backend of webapps with JavaScript and Typescript. I previously was pursuing a career in academia studying Chinese history in Taiwan and I am fluent in Mandarin Chinese, but I decided that I would prefer to pursue a career in the tech industry rather than in academia.
 
           </div>
                 

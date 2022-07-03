@@ -98,7 +98,7 @@ function Chinese(props: any){
      
           <div className='homeElement aboutMe'>
 
-          嗨，我是Cody，一個Full Stack 程序設計師。 我把程式設計作為一種愛好已經有兩年多了，希望能把職業轉向網絡程序設計師。 我有使用JavaScript和Typescript構建Web應用程序前端和後端的經驗。 我之前在學術界從事中國歷史研究，國語流利。 雖然我受過非傳統教育，但我相信我的作品集證明了我的能力和技能。
+          嗨，我是Cody，一個Full Stack 程序設計師。 程式設計是我的愛好已經兩年多了，希望我能成為專業的網路程序設計師。 我有使用JavaScript和Typescript構建Web應用程序前端和後端的經驗。 我的中文程度流利，因爲曾經在台灣讀中國歷史研究所。 雖然我受過非傳統教育，但我相信我的作品集證明了我的能力和技能。
           </div>
                 
         <div className='homeElement'>
@@ -118,7 +118,7 @@ function Chinese(props: any){
             <div className='projectHead'>
 
               <h3>
-                電子旅游指南：臺北
+                電子旅遊指南：臺北
               </h3>
 
               <div className='container'>
@@ -135,7 +135,7 @@ function Chinese(props: any){
                       <img className='aboutIcon' src={'/portfolio/img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
 
                   </div>
-                  這個webapp從一個簡短的測試中獲取用戶偏好 ,  Open Weather Map API 的資料, 與位置數據，來推薦去臺北度假的行程.
+                  這個webapp從一個簡短的問答中獲取用戶偏好、  Open Weather Map API 的資料、 與位置數據來安排去臺北度假的行程.
                   
                   
                       <div className='aboutCon'>
@@ -201,7 +201,7 @@ function Chinese(props: any){
 
               <h3>
 
-                    補習班管理器
+                    補習班管理助手
               </h3>
 
               <div className='container'>
@@ -224,7 +224,7 @@ function Chinese(props: any){
                   </div>
 
 
-                  一個基本的學校管理器，您可以在其中組織課程、功課、課程計畫、學生出勤率和成績，以及運營學校所需的其他功能。 課堂和功課的數據也通過各種圖表顯示，以幫助視覺化課堂和學生的表現。
+                  一個基本的學校管理助手，您可以在其中組織課程、功課、課程計畫、學生出勤率和成績，以及營運學校所需的其他功能。 課堂和功課的數據也透過各種圖表顯示，以實體化課堂和學生的表現。
                   
                     <div className='aboutCon'>
 
@@ -283,7 +283,7 @@ function Chinese(props: any){
   <div className='projectHead'>
 
     <h3>
-        完形填空游戲站
+        madlib遊戲站
     </h3>
 
     <div className='container'>
@@ -304,7 +304,7 @@ function Chinese(props: any){
         </div>
 
 
-        播放其他用戶創建的完形填空游，並與其他用戶創建和共亯您自己的完形填空游範本。
+        播放其他用戶創建的madlib，並與其他用戶創建和共享自己的madlib範本。
           
           <div className='aboutCon'>
 
