@@ -276,7 +276,87 @@ function Home(props: any){
         </div>
 
 
+
         <div data-aos='fade-right' className='homeElement'>
+
+          <div className='projectContainer'>
+            <div className='projectHead'>
+
+              <h3>
+                Brood War DB
+              </h3>
+
+              <div className='container'>
+                <div className='row'>
+                  <div className='col-sm'>
+
+                  <div className='aboutCon'>
+        
+                      <img className='aboutIcon' src={'./img/html5.png'} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5" />
+                      <img className='aboutIcon' src={'./img/css.png'} data-bs-toggle="tooltip" data-placement="top" title="CSS" />
+                      <img className='aboutIcon' src={'./img/typescript.png'} data-bs-toggle="tooltip" data-placement="top" title="Typescript"/>
+                      <img className='aboutIcon' src={'./img/javascript.png'} data-bs-toggle="tooltip" data-placement="top" title="JavaScript"/>
+                      <img className='aboutIcon' src={'./img/logo192.png'} data-bs-toggle="tooltip" data-placement="top" title="React.js"/>
+                      <img className='aboutIcon' src={'./img/mongo.png'} data-bs-toggle="tooltip" data-placement="top" title="MongoDB"/>
+                      <img className='aboutIcon' src={'./img/node.png'} data-bs-toggle="tooltip" data-placement="top" title="Node.js"/>
+                      <img className='aboutIcon' src={'./img/expressjs.png'} data-bs-toggle="tooltip" data-placement="top" title="express.js"/>
+                    
+                  </div>
+
+                      A database of modern Starcraft Brood War professional players and tournaments. Includes spoiler free functionality to watch past tournaments without seeing in the results. This project uses Recharts to visualize data on Starcraft's game balance and player performance.
+
+                    <div className='aboutCon'>
+
+                      <a href='https://broodwardb.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://github.com/CodyGrogan/broodwardb' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
+                    </div>
+                    <div className='form-text'>
+                      Demo may take a few seconds to load due to Heroku free tier limitations.
+                    </div>
+                  
+                  </div>
+
+                  <div className='col-sm'>
+                  <div id="carouselBW" className="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div className="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselBW" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselBW" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselBW" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div className="carousel-inner">
+                          <div className="carousel-item active">
+                            <img src={"./img/bwdb/bw1.png"} className="d-block w-100 carImg" alt="dgt1"/>
+                          </div>
+                          <div className="carousel-item">
+                            <img src={"./img/bwdb/bw2.png"} className="d-block w-100 carImg" alt="..."/>
+                          </div>
+                          <div className="carousel-item">
+                            <img src={"./img/bwdb/bw3.png"} className="d-block w-100 carImg" alt="..."/>
+                          </div>
+                         
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselBW" data-bs-slide="prev">
+                          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselBW" data-bs-slide="next">
+                          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span className="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                  </div> 
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+
+
+        </div>
+
+
+        <div data-aos='fade-left' className='homeElement'>
 
 <div className='projectContainer'>
   <div className='projectHead'>
@@ -356,7 +436,7 @@ function Home(props: any){
 
 </div>
 
-          <div className='homeElement' data-aos='fade-left'>
+          <div className='homeElement' data-aos='fade-right'>
           <h3>Education</h3>
           William and Mary, 2013-2017, BA, Cum Laude
           <br/>
@@ -368,7 +448,7 @@ function Home(props: any){
           </div>
 
 
-        <div id='contact' className='homeElement' data-aos='fade-right'>
+        <div id='contact' className='homeElement' data-aos='fade-left'>
           <h3>
             Contact
           </h3>
