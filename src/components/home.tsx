@@ -83,8 +83,8 @@ function Home(props: any){
                 </a>
 
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <Link to='/portfolio'><li><a className="dropdown-item" href="#">English</a></li></Link>
-                  <Link to='/portfolio/zh'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
+                  <Link to='/'><li><a className="dropdown-item" href="#">English</a></li></Link>
+                  <Link to='/zh/'> <li><a className="dropdown-item" href="#">中文</a></li></Link>
                 </ul>
               </div>
 
@@ -448,7 +448,7 @@ function Home(props: any){
           </div>
 
 
-        <div id='contact' className='homeElement' data-aos='fade-left'>
+        <div id='contact' className='homeElement' data-aos='fade-right'>
           <h3>
             Contact
           </h3>
