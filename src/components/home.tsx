@@ -325,13 +325,13 @@ function Home(props: any){
                         </div>
                         <div className="carousel-inner">
                           <div className="carousel-item active">
-                            <img src={"./img/bwdb/bw1.png"} className="d-block w-100 carImg" alt="dgt1"/>
+                            <img src={"./img/bwdb/bw1.PNG"} className="d-block w-100 carImg" alt="dgt1"/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"./img/bwdb/bw2.png"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/bwdb/bw2.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                           <div className="carousel-item">
-                            <img src={"./img/bwdb/bw3.png"} className="d-block w-100 carImg" alt="..."/>
+                            <img src={"./img/bwdb/bw3.PNG"} className="d-block w-100 carImg" alt="..."/>
                           </div>
                          
                         </div>
