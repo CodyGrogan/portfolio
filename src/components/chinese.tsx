@@ -140,7 +140,7 @@ function Chinese(props: any){
                   
                       <div className='aboutCon'>
 
-                      <a href='https://digitaltravelguide.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://travel.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
                       <a href='https://github.com/CodyGrogan/digitaltravelguide' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                       
                       
@@ -228,7 +228,7 @@ function Chinese(props: any){
                   
                     <div className='aboutCon'>
 
-                      <a href='https://cram-school-manager.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://school.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
                       <a href='https://github.com/CodyGrogan/cramschoolmanager' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                     </div>
                     <div className='form-text'>
@@ -308,7 +308,7 @@ function Chinese(props: any){
           
           <div className='aboutCon'>
 
-            <a href='https://madlibwarehouse.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+            <a href='https://warehouse.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
             <a href='https://github.com/CodyGrogan/madlibwarehouse' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
           </div>
           <div className='form-text'>
