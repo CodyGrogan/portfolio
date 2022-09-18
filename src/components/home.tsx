@@ -142,14 +142,12 @@ function Home(props: any){
                   
                       <div className='aboutCon'>
 
-                      <a href='https://digitaltravelguide.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://travel.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
                       <a href='https://github.com/CodyGrogan/digitaltravelguide' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                       
                       
                       </div>
-                      <div className='form-text'>
-                      Demo may take a few seconds to load due to Heroku free tier limitations.
-                      </div>
+                   
                   
                   </div>
 
@@ -227,12 +225,10 @@ function Home(props: any){
                   
                     <div className='aboutCon'>
 
-                      <a href='https://cram-school-manager.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://school.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
                       <a href='https://github.com/CodyGrogan/cramschoolmanager' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                     </div>
-                    <div className='form-text'>
-                      Demo may take a few seconds to load due to Heroku free tier limitations.
-                    </div>
+              
                   
                   </div>
 
@@ -307,12 +303,10 @@ function Home(props: any){
 
                     <div className='aboutCon'>
 
-                      <a href='https://broodwardb.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+                      <a href='https://broodwardb.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
                       <a href='https://github.com/CodyGrogan/broodwardb' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
                     </div>
-                    <div className='form-text'>
-                      Demo may take a few seconds to load due to Heroku free tier limitations.
-                    </div>
+                 
                   
                   </div>
 
@@ -385,12 +379,10 @@ function Home(props: any){
           
           <div className='aboutCon'>
 
-            <a href='https://madlibwarehouse.herokuapp.com/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
+            <a href='https://warehouse.codygrogan.dev/' target='_blank'><button className='btn btn-success demoBtn'>Live Demo</button></a>
             <a href='https://github.com/CodyGrogan/madlibwarehouse' target='_blank'> <button className='btn btn-outline-success demoBtn'>View Code</button></a>
           </div>
-          <div className='form-text'>
-              Demo may take a few seconds to load due to Heroku free tier limitations.
-          </div>
+       
           
         </div>
 
